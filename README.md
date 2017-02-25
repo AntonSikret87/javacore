@@ -1,2 +1,3 @@
 # javacore
 coursesKitCentrAutoQA
+File edited
