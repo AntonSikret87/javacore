@@ -1,4 +1,4 @@
-package com.karabeinikov;
+package com.karabeinikovAntonSikret87;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
