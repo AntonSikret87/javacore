@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.app.utils.runners;
+package com.karabeinikovAntonSikret87.runners;
 
 import com.karabeinikovAntonSikret87.app.utils.convertors.PrimitiveConvertor;
 
