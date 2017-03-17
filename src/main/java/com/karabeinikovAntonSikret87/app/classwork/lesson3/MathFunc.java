@@ -10,4 +10,66 @@ public class MathFunc {
     public int sum(int a, int b){
         return a + b;
     }
+    public int divide(int a, int b){
+        return a / b;
+    }
+    public int subtraction(int a, int b){
+        return a - b;
+    }
+    public String addThreeStrings(String a, String b, String c){
+        return a + b + c ;
+    }
+    public String testMessage(String a){
+        return a;
+    }
+    public char floatToChar(float floatValue) {
+        char newCharValueFromFloat = (char) floatValue;
+        return newCharValueFromFloat;
+    }
+
+    public char intToChar(int intValue) {
+        char newCharValueFromInt = (char) intValue;
+        return newCharValueFromInt;
+    }
+
+    public int charToInt(char charValue) {
+        int newIntValueFromChar = (int) charValue;
+        return newIntValueFromChar;
+    }
+    public int doubleToInt(double doubleValue) {
+        int newIntValueFromInt = (int) doubleValue;
+        return newIntValueFromInt;
+    }
+    public String concat(boolean append, String a,String b) {
+        String result = null;
+        if (append) {
+            result = a + b;
+        }
+        return result.toUpperCase();
+    }
+    public Boolean isOdd(int a) {
+        if (a % 2 != 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public int maxOfInts(int a, int b) {
+        int maxInt = Math.max(a, b);
+        return maxInt;
+    }
+    public int minOfInts(int a, int b) {
+        int maxInt = Math.min(a, b);
+        return maxInt;
+    }
+    public int increace(int a) {
+        a++;
+        return a;
+    }
+    public int decreace(int a) {
+        a--;
+        return a;
+    }
+
 }
+
