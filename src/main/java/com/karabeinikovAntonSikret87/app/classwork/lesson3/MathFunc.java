@@ -83,6 +83,7 @@ public class MathFunc {
         a--;
         return a;
     }
+
     public int changeYear(int year) {
         if (year != 2017) {
             year = 2017;
@@ -91,14 +92,17 @@ public class MathFunc {
         }
         return year;
     }
+
     public int strLenght(String text) {
         int strLeng = text.length();
         return strLeng;
     }
+
     public double sqrtOfDoubleToInt(double a) {
         double sqrtDouble = Math.sqrt(a);
         return sqrtDouble;
     }
+    
     public int negativeToPositive(int a) {
         int negativeDouble = Math.abs(a);
         return negativeDouble;
