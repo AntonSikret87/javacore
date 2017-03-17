@@ -156,5 +156,29 @@ public class MathFuncTest {
         int expectedResult = 5;
         Assert.assertEquals(expectedResult, actualResult);
     }
+    @Test
+    public void changeYearTest() {
+        int actualResult = mathFunc.changeYear(2058);
+        int expectedResult = 2017;
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+    @Test
+    public void strLenghtTest() {
+        int actualResult = mathFunc.strLenght("Antonidze");
+        int expectedResult = 9;
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+    @Test
+    public void sqrtOfDoubleToIntTest() {
+        int actualResult = (int) mathFunc.sqrtOfDoubleToInt(16.0);
+        int expectedResult = 4;
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+    @Test
+    public void negativeToPositiveTest() {
+        int actualResult = mathFunc.negativeToPositive(-16);
+        int expectedResult = 16;
+        Assert.assertEquals(expectedResult, actualResult);
+    }
 }
 
