@@ -1,6 +1,8 @@
 package com.karabeinikovAntonSikret87.app.classwork.lesson3;
 
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -19,6 +21,7 @@ public class MathFuncTest {
     MathFunc mathFunc = new MathFunc();
 
 
+
     public void setDevideValueOne(int divideValueOne) {
         if (divideValueOne == 0) {
             System.out.println("Value1 can't be 0!");
@@ -26,11 +29,9 @@ public class MathFuncTest {
             this.divideValueOne = divideValueOne;
         }
     }
-
     public int getDevideValueOne() {
         return divideValueOne;
     }
-
     public void setDevideValueTwo(int divideValueTwo) {
         if (divideValueTwo == 0) {
             System.out.println("Value2 can't be 0!");
@@ -38,7 +39,6 @@ public class MathFuncTest {
             this.divideValueTwo = divideValueTwo;
         }
     }
-
     public int getDevideValueTwo() {
         return divideValueTwo;
     }
