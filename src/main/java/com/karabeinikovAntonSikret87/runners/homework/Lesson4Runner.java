@@ -1,12 +1,5 @@
 package com.karabeinikovAntonSikret87.runners.homework;
 
-import com.karabeinikovAntonSikret87.app.utils.convertors.PrimitiveConvertor;
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-
-import java.io.PrintStream;
-import java.util.Scanner;
-
 import static com.karabeinikovAntonSikret87.runners.homework.Lesson4ScanMethods.whatAppDo;
 import static com.karabeinikovAntonSikret87.runners.homework.Lesson4ScanMethods.whatNeedToBeEnter;
 
