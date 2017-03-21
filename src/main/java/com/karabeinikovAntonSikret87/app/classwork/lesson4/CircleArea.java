@@ -1,6 +1,5 @@
 package com.karabeinikovAntonSikret87.app.classwork.lesson4;
 
-import java.util.Scanner;
 
 /**
  * Created by AntonKa on 3/17/2017.

@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Created by AntonKa on 3/21/2017.
  */
 public class Lesson4ScanMethods {
-    public static String whatAppDo = "This application displayed homework for previously lessons 2,3 and 4.";
+    public static String whatAppDo = "This application displayed homework for previously lessons 2,3 and 4. Type 'exit' to exit.";
     public static String whatNeedToBeEnter = "Enter lesson number to see homework(2,3 or 4 and hit Enter): ";
     private static String exitText = "Thanks goodbye, please leave a comment";
     private static String wordForCloseApp = "exit";

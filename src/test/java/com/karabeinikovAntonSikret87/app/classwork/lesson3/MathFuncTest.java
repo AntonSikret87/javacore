@@ -1,8 +1,7 @@
 package com.karabeinikovAntonSikret87.app.classwork.lesson3;
 
-import org.junit.After;
+
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 /**

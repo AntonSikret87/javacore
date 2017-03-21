@@ -4,10 +4,6 @@ package com.karabeinikovAntonSikret87.app.utils.convertors;
  * Created by AntonKa on 3/10/2017.
  */
 public class PrimitiveConvertor {
-//    public float floatValue;
-//    public int intValue;
-//    public char charValue;
-
 
     public void floatToChar(float floatValue) {
         char newCharValueFromFloat = (char) floatValue;
