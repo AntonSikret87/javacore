@@ -1,8 +1,6 @@
 package com.karabeinikovAntonSikret87.runners.homework;
 
 import com.karabeinikovAntonSikret87.app.utils.convertors.PrimitiveConvertor;
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
 
 import java.util.Scanner;
 
@@ -32,6 +30,7 @@ public class Lesson4ScanMethods {
                 String str1 = sc.nextLine();
                 if (str1.equals(wordForCloseApp)) {
                     Lesson4ScanMethods.appExplenation(exitText);
+
                     sc.close();
                     break;
                 }
@@ -54,17 +53,14 @@ public class Lesson4ScanMethods {
             /*Also HomeWork Lesson3 can be found:
               main.java.com.karabeinikovAntonSikret87.app.classwork.lesson3  class MeathFunc(methods)
               test.java.com.karabeinikovAntonSikret87.app.classwork.lesson3  class MeathFuncTest(unit tests)*/
-            System.out.println(" 3, unit testing Methods in MathFuncWith20UnitTest class : ");
-            Result result = JUnitCore.runClasses(MathFuncWith20UnitTest.class);
-            System.out.println("Total number of tests: " + result.getRunCount());
-            System.out.println("Total number of tests failed: " + result.getFailureCount());
+            System.out.println(" 3, unit testing Methods in MathFuncWith20UnitTest class : Was not able to create object MathFuncTest class ");
+            /*MathFuncTest mathFuncTest = new  MathFuncTestt();
+            MathFuncTest.lessonEightTest();*/
 
         } else if (a == 4) {
-            System.out.println(" 4, unit testing Methods in Lesson4ScanMethods class : ");
-            Result result = JUnitCore.runClasses(Lesson4ScanMethods.class);
-            System.out.println("Total number of tests: " + result.getRunCount());
-            System.out.println("Total number of tests failed: " + result.getFailureCount());
-            System.out.println("4 is not finished. Only 10 test are written(if they are correct at all). Please look at them");
+            System.out.println(" 4, unit testing Methods in Lesson4ScanMethods class : Was not able to create object MathFuncTest class Lesson4RunnerTest");
+            /*Lesson4RunnerTest lesson4RunnerTest = new  Lesson4RunnerTest();
+            lesson4RunnerTest.lessonEightTest();*/
 
         } else {
             System.out.println("range is from 2 to 4.");

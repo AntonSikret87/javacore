@@ -8,8 +8,6 @@ import static com.karabeinikovAntonSikret87.runners.homework.Lesson4ScanMethods.
  */
 public class Lesson4Runner {
 
-
-
     public static void main(String[] args) {
 
         Lesson4ScanMethods.appExplenation(whatAppDo);
@@ -17,6 +15,4 @@ public class Lesson4Runner {
         Lesson4ScanMethods.scanNum();
 
     }
-
-
 }
