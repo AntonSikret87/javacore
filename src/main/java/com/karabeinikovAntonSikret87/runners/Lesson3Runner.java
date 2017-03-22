@@ -8,7 +8,7 @@ import com.karabeinikovAntonSikret87.app.utils.convertors.PrimitiveConvertor;
 public class Lesson3Runner {
     public static void main(String[] args) {
         PrimitiveConvertor conv = new PrimitiveConvertor();
-        conv.floatToChar(67.8f);
+        conv.floatToChar(445.54f);
         conv.charToInt('a');
         conv.intToChar(366);
     }

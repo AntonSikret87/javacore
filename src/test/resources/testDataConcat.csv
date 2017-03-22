@@ -1,0 +1,3 @@
+bollArg, Str1, Str2, expout
+true, fifo, mifo, FIFOMIFO
+true, hello, world, HELLOWORLD

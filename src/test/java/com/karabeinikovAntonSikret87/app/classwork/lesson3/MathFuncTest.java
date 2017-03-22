@@ -126,7 +126,7 @@ public class MathFuncTest {
 
     @Test
     public void isOddTest() {
-        Boolean actualResult = mathFunc.isOdd(3);
+        Boolean actualResult = mathFunc.isOdd(5);
         Boolean expectedResult = new Boolean(true);
         Assert.assertEquals(expectedResult, actualResult);
     }
