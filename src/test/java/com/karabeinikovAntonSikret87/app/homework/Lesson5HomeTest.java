@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
  * Created by AntonKa on 3/22/2017.
  */
 @RunWith(JUnitParamsRunner.class)
-public class Lesson5 {
+public class Lesson5HomeTest {
     MathFunc mathFunc = new MathFunc();
     @Test
     @FileParameters(value = "src/test/resources/testDataDevideValues.csv", mapper = CsvWithHeaderMapper.class)
@@ -61,7 +61,7 @@ public class Lesson5 {
     @FileParameters(value = "src/test/resources/testStrLenght.csv", mapper = CsvWithHeaderMapper.class)
     public void dataProviderStrLenghtTest(String argA, int expOut) {
         Assert.assertEquals(expOut, mathFunc.strLenght(argA));
-    }
+    } 
 
     @Test
     @FileParameters(value = "src/test/resources/testDataCalculateBigger.csv", mapper = CsvWithHeaderMapper.class)
