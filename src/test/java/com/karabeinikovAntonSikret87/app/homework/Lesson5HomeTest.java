@@ -7,6 +7,7 @@ import junitparams.FileParameters;
 import junitparams.JUnitParamsRunner;
 import junitparams.mappers.CsvWithHeaderMapper;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -61,8 +62,8 @@ public class Lesson5HomeTest {
     @FileParameters(value = "src/test/resources/testStrLenght.csv", mapper = CsvWithHeaderMapper.class)
     public void dataProviderStrLenghtTest(String argA, int expOut) {
         Assert.assertEquals(expOut, mathFunc.strLenght(argA));
-    } 
-
+    }
+    @Ignore("Not ready")
     @Test
     @FileParameters(value = "src/test/resources/testDataCalculateBigger.csv", mapper = CsvWithHeaderMapper.class)
     public void dataProviderCalculateBiggerTest(int argA, int argB ) {
