@@ -1,7 +1,7 @@
-package com.karabeinikovAntonSikret87.runners.homework;
+package com.karabeinikovAntonSikret87.app.homework;
 
-import static com.karabeinikovAntonSikret87.runners.homework.Lesson4ScanMethods.whatAppDo;
-import static com.karabeinikovAntonSikret87.runners.homework.Lesson4ScanMethods.whatNeedToBeEnter;
+import static com.karabeinikovAntonSikret87.app.homework.Lesson4ScanMethods.whatAppDo;
+import static com.karabeinikovAntonSikret87.app.homework.Lesson4ScanMethods.whatNeedToBeEnter;
 
 /**
  * Created by AntonKa on 3/18/2017.

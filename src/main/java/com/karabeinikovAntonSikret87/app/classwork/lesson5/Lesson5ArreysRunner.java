@@ -1,6 +1,5 @@
 package com.karabeinikovAntonSikret87.app.classwork.lesson5;
 
-import java.lang.reflect.Array;
 
 /**
  * Created by AntonKa on 3/24/2017.

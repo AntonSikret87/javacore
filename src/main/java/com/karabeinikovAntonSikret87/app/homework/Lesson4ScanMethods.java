@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.runners.homework;
+package com.karabeinikovAntonSikret87.app.homework;
 
 import com.karabeinikovAntonSikret87.app.utils.convertors.PrimitiveConvertor;
 
