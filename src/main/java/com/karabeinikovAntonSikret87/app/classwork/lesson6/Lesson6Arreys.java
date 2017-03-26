@@ -1,9 +1,9 @@
-package com.karabeinikovAntonSikret87.app.classwork.lesson5;
+package com.karabeinikovAntonSikret87.app.classwork.lesson6;
 
 /**
  * Created by AntonKa on 3/24/2017.
  */
-public class Lesson5Arreys {
+public class Lesson6Arreys {
 
     public void buysToGirls() {
         String[] boysName = {"Anton", "Fransua", "Janpol'"};
@@ -33,7 +33,6 @@ public class Lesson5Arreys {
     }
 
     public void numbers1() {
-
         int[] arreyInt = new int[3];
         arreyInt[0] = 2;
         arreyInt[1] = 4;
@@ -51,5 +50,12 @@ public class Lesson5Arreys {
             System.out.println(arrayPosition);
         }
         System.out.println("lenght array is : " + arreyInt.length);
+    }
+    public void twoDimArr() {
+        int[][] arreyInt = new int[3][4];
+        arreyInt[0][0] = 25;
+        arreyInt[1][2] = 50;
+        arreyInt[0][2] = 10;
+        System.out.println(arreyInt[0][0] + " " + arreyInt[0][1] + arreyInt[1][2] + arreyInt[0][2]);
     }
 }

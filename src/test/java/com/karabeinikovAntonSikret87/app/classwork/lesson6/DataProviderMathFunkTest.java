@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.app.classwork.lesson5;
+package com.karabeinikovAntonSikret87.app.classwork.lesson6;
 
 import com.karabeinikovAntonSikret87.app.classwork.lesson3.MathFunc;
 import junitparams.FileParameters;

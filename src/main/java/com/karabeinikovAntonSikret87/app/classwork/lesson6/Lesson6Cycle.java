@@ -1,16 +1,16 @@
-package com.karabeinikovAntonSikret87.app.classwork.lesson5;
+package com.karabeinikovAntonSikret87.app.classwork.lesson6;
 
 import java.util.Scanner;
 
 /**
  * Created by AntonKa on 3/24/2017.
  */
-public class Lesson5Cycle {
+public class Lesson6Cycle {
 
     public static int a, b;
 
     public static void main(String[] args) {
-        Lesson5Cycle l5 = new Lesson5Cycle();
+        Lesson6Cycle l5 = new Lesson6Cycle();
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter first int:");

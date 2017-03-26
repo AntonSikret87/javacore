@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.app.classwork.lesson5;
+package com.karabeinikovAntonSikret87.app.classwork.lesson6;
 
 import org.junit.Ignore;
 import org.junit.Test;

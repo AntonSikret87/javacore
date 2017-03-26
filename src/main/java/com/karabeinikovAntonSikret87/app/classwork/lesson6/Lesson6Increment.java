@@ -1,9 +1,9 @@
-package com.karabeinikovAntonSikret87.app.classwork.lesson5;
+package com.karabeinikovAntonSikret87.app.classwork.lesson6;
 
 /**
  * Created by AntonKa on 3/24/2017.
  */
-public class Lesson5Increment {
+public class Lesson6Increment {
     public static void main(String[] args) {
 //        int a = 1;
 //        System.out.println("Original a " + a);
@@ -12,7 +12,7 @@ public class Lesson5Increment {
 //        System.out.println("Pre-incremet a " + ++a);
 //        System.out.println("After Pre-incremet a " + a);
 
-        Lesson5Increment lI = new Lesson5Increment();
+        Lesson6Increment lI = new Lesson6Increment();
         lI.evenOdd();
     }
 
