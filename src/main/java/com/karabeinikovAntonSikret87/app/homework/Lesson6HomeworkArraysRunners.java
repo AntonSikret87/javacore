@@ -21,5 +21,10 @@ public class Lesson6HomeworkArraysRunners {
         //Sub-Task f
         //Was performed in package classwork!
         //Additional Sub-Task "g" and "h" was not completed, yet!=)
+        //Sub-Task g
+        lesson6HomeworkArrays.printRandomTwoDimensionalArrayInMatrix();
+        //Sub-Task h
+         lesson6HomeworkArrays.scanAndPrintSumOfAllEnteredNumbers();
     }
+
 }

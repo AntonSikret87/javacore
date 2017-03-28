@@ -3,6 +3,8 @@ package com.karabeinikovAntonSikret87.app.homework;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
+
 import org.apache.commons.lang.ArrayUtils;
 
 /**
@@ -13,6 +15,7 @@ public class Lesson6HomeworkArrays {
     int[] arreyOddIntFromOneToNineNine = new int[99];
     int[] arrayFifteen = new int[15];
     public int countEven = 0;
+    int[][] twoDimensionArray = new int[8][5];
 
     public void intArrayFromTwoToTwentyInLine() {
         System.out.println(" ");
@@ -96,7 +99,6 @@ public class Lesson6HomeworkArrays {
     }
 
     public void printRandomTwoDimensionalArray() {
-        int[][] twoDimensionArray = new int[8][5];
         for (int a = 0; a < twoDimensionArray.length; a++) {
             for (int b = 0; b < twoDimensionArray[a].length; b++) {
                 twoDimensionArray[a][b] = (int) (10 + (Math.random() * 90));
@@ -105,5 +107,48 @@ public class Lesson6HomeworkArrays {
         }
         System.out.println("- Two dimension random (10-99)array with 8 rows and 5 colomns(8*5=40 values).");
     }
+
+    public void printRandomTwoDimensionalArrayInMatrix() {
+        for (int a = 0; a < twoDimensionArray.length; a++) {
+            System.out.print("List " + a + ": ");
+            for (int b = 0; b < twoDimensionArray[a].length; b++) {
+                twoDimensionArray[a][b] = (int) (1 + (Math.random() * 999));
+                System.out.print(" ");
+
+                System.out.print(twoDimensionArray[a][b] + " ");
+            }
+            System.out.println("");
+        }
+        //System.out.print("Row 5 and Column 3: "+twoDimensionArray[5][3]);
+    }
+
+    public void scanAndPrintSumOfAllEnteredNumbers() {
+        System.out.print("input");
+        int total = 0;
+        Scanner sc = new Scanner(System.in);
+        while (!sc.equals("exit")) {
+            System.out.println("Enter a whole number.");
+            String input = sc.next();
+            int intInputValue = 0;
+            intInputValue = Integer.parseInt(input);
+            total += intInputValue;
+        }
+        System.out.println("sss" + total);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
