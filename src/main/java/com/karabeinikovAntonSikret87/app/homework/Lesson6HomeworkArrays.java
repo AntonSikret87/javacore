@@ -1,9 +1,6 @@
 package com.karabeinikovAntonSikret87.app.homework;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 import org.apache.commons.lang.ArrayUtils;
 
@@ -122,20 +119,25 @@ public class Lesson6HomeworkArrays {
         //System.out.print("Row 5 and Column 3: "+twoDimensionArray[5][3]);
     }
 
+
     public void scanAndPrintSumOfAllEnteredNumbers() {
-        System.out.print("input");
-        int total = 0;
-        Scanner sc = new Scanner(System.in);
-        while (!sc.equals("exit")) {
-            System.out.println("Enter a whole number.");
-            String input = sc.next();
-            int intInputValue = 0;
-            intInputValue = Integer.parseInt(input);
-            total += intInputValue;
-        }
-        System.out.println("sss" + total);
+        String str = "";
+        ArrayList<Integer> mylist = new ArrayList<Integer>();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter some number: ");
+        do {
+            int i = scanner.nextInt();
+            mylist.add(i);
+        } while (scanner.hasNextInt() && !((str = scanner.nextLine()).equals("exit")));
+        int sum = mylist.stream().mapToInt(Integer::intValue).sum();
+        System.out.println("Total sum is: " + sum);
     }
-}
+ }
+    
+
+
+
+
 
 
 

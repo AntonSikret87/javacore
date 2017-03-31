@@ -11,7 +11,10 @@ public class Lesson6ArreysRunner {
 //        lesson6Arreys.girls();
 //        lesson6Arreys.numbers1();
 //        lesson6Arreys.numbers2();
-        lesson6Arreys.twoDimArr();
+//        lesson6Arreys.twoDimArr();
+//        lesson6Arreys.intArr();
+//        lesson6Arreys.intArrToString();
+        lesson6Arreys.twoDimArrJandK();
 
     }
 }

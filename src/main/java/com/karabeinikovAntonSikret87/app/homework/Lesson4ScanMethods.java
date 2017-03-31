@@ -40,8 +40,6 @@ public class Lesson4ScanMethods {
         } while (sc.hasNextLine());
     }
 
-
-
     public static int lessonsTwoThreeFour(int a) {
         if (a == 2) {
             System.out.println(" 2 converting types: ");

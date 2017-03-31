@@ -24,7 +24,7 @@ public class Lesson6HomeworkArraysRunners {
         //Sub-Task g
         lesson6HomeworkArrays.printRandomTwoDimensionalArrayInMatrix();
         //Sub-Task h
-         lesson6HomeworkArrays.scanAndPrintSumOfAllEnteredNumbers();
+        lesson6HomeworkArrays.scanAndPrintSumOfAllEnteredNumbers();
     }
 
 }

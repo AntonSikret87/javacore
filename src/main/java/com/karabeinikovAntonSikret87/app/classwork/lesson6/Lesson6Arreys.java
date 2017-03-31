@@ -1,5 +1,7 @@
 package com.karabeinikovAntonSikret87.app.classwork.lesson6;
 
+import java.util.Arrays;
+
 /**
  * Created by AntonKa on 3/24/2017.
  */
@@ -57,5 +59,26 @@ public class Lesson6Arreys {
         arreyInt[1][2] = 50;
         arreyInt[0][2] = 10;
         System.out.println(arreyInt[0][0] + " " + arreyInt[0][1] + arreyInt[1][2] + arreyInt[0][2]);
+    }
+    public void intArr() {
+        int[] intArray = {10, 20, 30};
+        for (int i = 0; i < intArray.length; i++) {
+            System.out.println(intArray[i]);
+        }
+    }
+    public void intArrToString() {
+        int[] intArray = {10, 20, 30};
+        System.out.println(Arrays.toString(intArray));
+    }
+
+
+    public void twoDimArrJandK() {
+        int[][] intArray = new int[2][3];
+        for(int j=0; j<intArray.length;j++){
+            for(int k=0;k<intArray[j].length;k++) {
+                intArray[j][k] = j * k;
+                System.out.print(intArray[j][k] + ", ");
+            }
+        }
     }
 }
