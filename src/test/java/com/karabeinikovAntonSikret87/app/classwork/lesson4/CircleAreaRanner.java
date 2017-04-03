@@ -13,6 +13,6 @@ public class CircleAreaRanner {
         System.out.print("Enter a number of Area2: ");
         int area2 = sc.nextInt();
         System.out.print("Result of comparing Area1 and Area2: ");
-        CircleArea.calculateBigger(area1,area2);
+        CircleArea.calculateBiggerIfStatment(area1,area2);
     }
 }

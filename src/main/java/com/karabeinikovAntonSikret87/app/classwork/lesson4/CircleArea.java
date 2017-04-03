@@ -5,7 +5,7 @@ package com.karabeinikovAntonSikret87.app.classwork.lesson4;
  * Created by AntonKa on 3/17/2017.
  */
 public class CircleArea {
-    public static void calculateBigger(int area1, int area2){
+    public static void calculateBiggerIfStatment(int area1, int area2){
         if (area1>area2){
             System.out.println("Area1 is bigger");
         } else {

@@ -67,7 +67,7 @@ public class Lesson5HomeTest {
     @Test
     @FileParameters(value = "src/test/resources/testDataCalculateBigger.csv", mapper = CsvWithHeaderMapper.class)
     public void dataProviderCalculateBiggerTest(int argA, int argB ) {
-        CircleArea.calculateBigger(argA, argB);
+        CircleArea.calculateBiggerIfStatment(argA, argB);
         System.out.println();
        // Assert.assertEquals(expOut, );
     }
