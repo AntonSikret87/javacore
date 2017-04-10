@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class HomeWorkLesson8ScanPolindrome {
     public static void main(String[] args) {
         String line = "";
-
         Scanner scanner = new Scanner(System.in);
         while (!line.equals("exit")) {
 
@@ -23,18 +22,6 @@ public class HomeWorkLesson8ScanPolindrome {
                 System.out.println("Your string is a palindrome!");
             else
                 System.out.println("Your string is not a palindrome.");
-
-
-//        do{
-//            System.out.println(" ");
-//            System.out.println("Enter string polindrome: ");
-//
-//        s = scanner.nextLine();
-//            if (polindromTest(s.toLowerCase(Locale.ENGLISH).replaceAll("\\W", "")))
-//                System.out.println("Your string is a palindrome!");
-//            else
-//                System.out.println("Your string is not a palindrome.");
-//        }while(!s.equals("exit"));
         }
     }
 
