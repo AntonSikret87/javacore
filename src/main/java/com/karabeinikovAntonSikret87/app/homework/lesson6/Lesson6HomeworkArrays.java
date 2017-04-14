@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.app.homework;
+package com.karabeinikovAntonSikret87.app.homework.lesson6;
 
 import java.util.*;
 

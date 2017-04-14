@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.app.homework;
+package com.karabeinikovAntonSikret87.app.homework.lesson5;
 
 import com.karabeinikovAntonSikret87.app.classwork.lesson3.MathFunc;
 import com.karabeinikovAntonSikret87.app.classwork.lesson4.Car;

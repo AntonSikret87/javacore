@@ -1,4 +1,6 @@
-package com.karabeinikovAntonSikret87.app.homework;
+package com.karabeinikovAntonSikret87.app.homework.lesson8;
+
+import com.karabeinikovAntonSikret87.app.homework.lesson8.Lesson8HomeWork;
 
 /**
  * Created by AntonKa on 4/3/2017.

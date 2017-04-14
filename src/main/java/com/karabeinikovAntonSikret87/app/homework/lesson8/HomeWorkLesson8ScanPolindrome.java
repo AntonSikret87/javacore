@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.app.homework;
+package com.karabeinikovAntonSikret87.app.homework.lesson8;
 
 import java.util.Locale;
 import java.util.Scanner;

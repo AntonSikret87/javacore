@@ -1,0 +1,11 @@
+
+ Mooom         is palindrom
+ mooom         is palindrom
+ gooood        is not palindrome
+ antooo        is not palindrome
+ Mooood        is not palindrome
+ jkjkj         is palindrom
+ ggggttgtg        is not palindrome
+ anton        is not palindrome
+ molodec        is not palindrome
+ cecepecec         is palindrom

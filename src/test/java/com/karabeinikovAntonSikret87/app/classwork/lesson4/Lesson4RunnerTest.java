@@ -1,7 +1,7 @@
 package com.karabeinikovAntonSikret87.app.classwork.lesson4;
 
 
-import com.karabeinikovAntonSikret87.app.homework.Lesson4ScanMethods;
+import com.karabeinikovAntonSikret87.app.homework.lesson4.Lesson4ScanMethods;
 import org.junit.Assert;
 import org.junit.Test;
 

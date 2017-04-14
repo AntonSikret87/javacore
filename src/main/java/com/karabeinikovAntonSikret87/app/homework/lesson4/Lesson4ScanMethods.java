@@ -1,6 +1,8 @@
-package com.karabeinikovAntonSikret87.app.homework;
+package com.karabeinikovAntonSikret87.app.homework.lesson4;
 
-import com.karabeinikovAntonSikret87.app.utils.convertors.PrimitiveConvertor;
+import com.karabeinikovAntonSikret87.app.homework.lesson6.Lesson6HomeworkArrays;
+import com.karabeinikovAntonSikret87.app.homework.lesson8.Lesson8HomeWork;
+import com.karabeinikovAntonSikret87.app.homework.lesson3.PrimitiveConvertor;
 
 import java.util.Scanner;
 

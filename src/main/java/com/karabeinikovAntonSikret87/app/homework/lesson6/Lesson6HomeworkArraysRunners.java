@@ -1,4 +1,4 @@
-package com.karabeinikovAntonSikret87.app.homework;
+package com.karabeinikovAntonSikret87.app.homework.lesson6;
 
 /**
  * Created by AntonKa on 3/25/2017.

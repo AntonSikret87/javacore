@@ -1,6 +1,4 @@
-package com.karabeinikovAntonSikret87.runners;
-
-import com.karabeinikovAntonSikret87.app.utils.convertors.PrimitiveConvertor;
+package com.karabeinikovAntonSikret87.app.homework.lesson3;
 
 /**
  * Created by AntonKa on 3/13/2017.
