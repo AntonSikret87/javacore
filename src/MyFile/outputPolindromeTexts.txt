@@ -9,3 +9,5 @@
  anton        is not palindrome
  molodec        is not palindrome
  cecepecec         is palindrom
+ poooop         is palindrom
+ frfrfff        is not palindrome

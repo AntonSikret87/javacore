@@ -2,7 +2,9 @@ package com.karabeinikovAntonSikret87.app.homework.lesson11;
 
 import java.io.*;
 import java.util.ArrayList;
-import static com.karabeinikovAntonSikret87.app.homework.lesson11.PolindromInOutRunnerLesson11.arrayInputStrings;
+
+import static com.karabeinikovAntonSikret87.app.homework.lesson11.RunnerHometaskLesson11SubTaskB.arrayInputStrings;
+
 
 /**
  * Created by AntonKa on 4/13/2017.
