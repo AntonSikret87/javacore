@@ -27,6 +27,6 @@ public class WhiteCollar extends Human {
 
     public WhiteCollar(int age, String name, String company) {
         this(age, name);
-        this.company = company;
+
     }
 }

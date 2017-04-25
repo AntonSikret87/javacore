@@ -9,7 +9,7 @@ public class RunerHomeworkLesson12 {
         int human1Age = 63;
         Human human1 =  new Human(human1Age,human1Name);
         System.out.println(human1.getAge() + " "  + human1.getName());
-
+        System.out.println(" ");
 
         Human human2 =  new Human(44,"ff");
         human2.setAge(2);
@@ -17,11 +17,20 @@ public class RunerHomeworkLesson12 {
         String myNameIs = human2.getName();
         int myAgeIs = human2.getAge();
         System.out.println("Age: " + myAgeIs + ", " + "Name: " + myNameIs);
+        System.out.println(" ");
 
-
-        WhiteCollar whiteCollar = new WhiteCollar(5,"ddd");
-        whiteCollar.setCompany("aRZerr,-#");
-        String compName = whiteCollar.getCompany();
+        WhiteCollar whiteCollar1 = new WhiteCollar(5,"ddd");
+        whiteCollar1.setCompany("aRZerr,-");
+        String compName = whiteCollar1.getCompany();
         System.out.println("Company name: " + compName);
+        System.out.println(" ");
+
+        WhiteCollar whiteCollar2 = new WhiteCollar(25,"Arcadij", "Yandex9");
+        whiteCollar2.setAge(85);
+        whiteCollar2.setName("Alexandro");
+        whiteCollar2.setCompany("Terrasoft-#");
+        System.out.println("Age: " + whiteCollar2.getAge() +" "
+        + "Name: " + whiteCollar2.getName() + " "
+        + "Company: " + whiteCollar2.getCompany());
     }
 }
