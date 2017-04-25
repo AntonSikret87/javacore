@@ -6,12 +6,10 @@ package com.karabeinikovAntonSikret87.app.homework.lesson12;
 public class Human {
     private int age;
     private String name;
-
     public Human(int age, String name){
         this.age = age;
         this.name = name;
     }
-
     public int getAge(){
         return age;
     }

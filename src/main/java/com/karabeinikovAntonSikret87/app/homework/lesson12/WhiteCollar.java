@@ -5,8 +5,6 @@ package com.karabeinikovAntonSikret87.app.homework.lesson12;
  * Created by AntonKa on 4/24/2017.
  */
 public class WhiteCollar extends Human {
-
-
     private String company;
     String pattern = "[a-zA-Z ,-]+";
 
@@ -27,6 +25,6 @@ public class WhiteCollar extends Human {
 
     public WhiteCollar(int age, String name, String company) {
         this(age, name);
-
+        this.company=company;
     }
 }
