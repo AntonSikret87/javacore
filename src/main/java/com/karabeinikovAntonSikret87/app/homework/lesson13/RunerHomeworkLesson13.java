@@ -1,9 +1,9 @@
-package com.karabeinikovAntonSikret87.app.homework.lesson12;
+package com.karabeinikovAntonSikret87.app.homework.lesson13;
 
 /**
  * Created by AntonKa on 4/24/2017.
  */
-public class RunerHomeworkLesson12 {
+public class RunerHomeworkLesson13 {
     public static void main(String[] args){
         String human1Name = "Valentin";
         int human1Age = 63;
