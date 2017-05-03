@@ -7,16 +7,15 @@ public class Student extends Person {
     //IS A
     public Student(String name, String university) {
         super(name);
-        this.university=university;
+        this.setUniversity(university);
     }
 
     public void printPersonInfo(){
-        System.out.println("Student name: " + name + ", "
-        + "Univercity: " + university + ", "
-        + "Age: " + age);
+        System.out.println("Student name: " + getName()+ ", "
+        + "Univercity: " + getUniversity() + ", "
+        + "Age: " + getAge());
     }
     public void showDegree(){
-        System.out.println("Student degree: " + degree);
+        System.out.println("Student degree: " + getDegree());
     }
-
 }

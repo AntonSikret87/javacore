@@ -1,6 +1,6 @@
 package com.karabeinikovAntonSikret87.app.classwork.lesson13.lesson13Runner;
 
-import com.karabeinikovAntonSikret87.app.classwork.lesson13.lesson13Runner.classwork.Lecture;
+import com.karabeinikovAntonSikret87.app.classwork.lesson13.lesson13Runner.lesson13Logic.Lecture;
 import com.karabeinikovAntonSikret87.app.classwork.lesson13.lesson13Runner.lesson13Logic.Person;
 import com.karabeinikovAntonSikret87.app.classwork.lesson13.lesson13Runner.lesson13Logic.Student;
 
@@ -13,30 +13,34 @@ public class PersonRunner {
         String universityStudent = "NAU";
 
         Student student = new Student(nameStudent,universityStudent);
-
-        student.age = 22;
+        student.setName("ANTON");
+        student.setUniversity("NAU!");
+        student.setAge(22);
         student.printPersonInfo();
 
+
         Person person = new Person(nameStudent);
-        person.name = "Vika";
-        person.printPersonInfo();;
+        person.setName("Vika");
+        person.printPersonInfo();
+
+        person.setName("Afanasij");
 
 
-        String nameLecture = "Afanasij";
         String universityLecture ="Oxford";
-        int ageLecture = 99;
+        person.setAge(99);
+        String name = "Anton";
         String facultyLecture = "Math";
         int expirianceLecture = 55;
         String degreeLecture = "Master";
 
-        Lecture lecture = new Lecture(nameLecture,universityLecture,ageLecture
-                ,facultyLecture,expirianceLecture,degreeLecture);
-        lecture.printPersonInfo();
 
+        Lecture lecture = new Lecture(name,universityLecture,person.getAge()
+                ,facultyLecture,expirianceLecture,degreeLecture);
         lecture.printLectureInfo();
 
+
         lecture.showDegree();
-        student.degree = "Slow student";
+        student.setDegree("Slow student");
         student.showDegree();
     }
 }
