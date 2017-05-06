@@ -7,7 +7,7 @@ public class ComputerRunner {
     public static void main(String[] args) {
 //        IBM ibm = new IBM();
 //        ibm.changeRAM();
-        Computer aserCOmputer = new ASER();  //Computer interface , new ASER()constructor
+        Computer aserCOmputer = new ASER();  //Computer interface , new ASER()constructor который создаёт
         Computer macComputer = new MAC();
         Computer ibmComputer = new IBM();
        // ibmComputer.changeRAM();
