@@ -10,8 +10,8 @@ public class Peony extends Flowers {
 
     @Override
     public double countTotalPriceForFlower() {
-        totalPrice = flowerNumber * priceForOne;
-        System.out.println("Total price for peony is: " + totalPrice);
-        return totalPrice;
+        setTotalPrice(getPriceForOne() * getFlowerNumber());
+        System.out.println("Total price for " + getFlowerName() + " is: " + getTotalPrice());
+        return getTotalPrice();
     }
 }
