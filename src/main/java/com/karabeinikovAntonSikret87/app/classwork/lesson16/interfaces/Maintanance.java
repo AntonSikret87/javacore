@@ -5,5 +5,6 @@ package com.karabeinikovAntonSikret87.app.classwork.lesson16.interfaces;
  */
 public interface Maintanance {
    // void maintanence();//clining
+
     void clean(); //переопределить
 }
