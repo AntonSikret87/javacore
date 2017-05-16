@@ -5,20 +5,24 @@ package com.karabeinikovAntonSikret87.app.homework.lesson15.Task2;
  */
 public class RunnerHouse {
     public static void main(String[] args) {
-        String flatNameOwner = "AntonKa";
-        String wheelsName = "Michelin";
-//
-//        Wheels wheels = new Wheels(wheelsName);
-//        System.out.println("Wheels: " + wheels.getWheelsName());
-//
-//        Engine engine = new Engine(engineName);
-//        Car car = new Car(engine, wheels);  //строгая композиция
-//
-//        System.out.println("Car engine: " + car.getEngine().getEngineNAme());
-//
-//        Navigation navigationGoogle = new Navigation();
-//        navigationGoogle.setNavigationName("GoogleNavigation");
-//        car.setNavigation(navigationGoogle); //не строгая композиция
-//        System.out.println("Car navigation1: " + car.getNavigation().getNavigationName());
+        String firstOwnerFlat = "VikaKa";
+
+        Flat flat1 = new Flat(firstOwnerFlat);
+        flat1.setNamberFlat(3);
+        flat1.setNameWhoLivesInFlat("AntonKa");
+
+        House house = new House(flat1); //композиция
+        house.setFloorNumber(5);
+        house.setNumberOfTheHouse(98);
+
+        Bed bed = new Bed();
+        bed.setBedMaterials("wood");
+        bed.setBedModel("AT1G1000");
+
+        flat1.setBed(bed); //агрегация
+        System.out.println(house);
+        System.out.println(flat1);
+        System.out.println(bed);
+
     }
 }
