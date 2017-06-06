@@ -1,19 +1,20 @@
-//package com.karabeinikovAntonSikret87;
-//
-///**
-// * Hello world!
-// *
-// */
-//public class App
-//{
-//    public static void main( String[] args )
-//    {
-//        System.out.println( "Hello World!" );
-//
-//        int int1 = 127;
-//        float float1 = 0.0f;
-//
-//        float1 = int1;
-//        System.out.print(float1);
-//    }
-//}
+package com.karabeinikovAntonSikret87;
+
+/**
+ * Hello world!
+ *
+ */
+public class App{
+    @Override
+    public String toString() {
+        return "App{" +
+                "ageNS=" + ageNS +
+                "ageS=" + ageS +
+                '}';
+    }
+
+    public static int ageS = 22;
+    public int ageNS = 33;
+
+
+}

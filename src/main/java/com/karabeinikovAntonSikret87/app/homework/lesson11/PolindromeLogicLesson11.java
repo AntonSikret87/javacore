@@ -13,7 +13,7 @@ public class PolindromeLogicLesson11 {
     public static BufferedReader reader;
     public static String pathInputFile = "src\\MyFile\\inputPolindromeTexts.txt";
     public static  String pathOutputFile = "src\\MyFile\\outputPolindromeTexts.txt";
-    //public ArrayList<String> arrayInputStrings = new ArrayList<String>();
+    //public Arraylist1<String> arrayInputStrings = new Arraylist1<String>();
 
     public static void writePolindromeToFile( ArrayList<String> valueString) throws IOException {
         BufferedWriter writer;
